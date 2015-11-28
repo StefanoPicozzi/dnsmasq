@@ -8,7 +8,7 @@ COPY resolv.dnsmasq.conf /etc/
 
 VOLUME /dnsmasq.hosts
 
-EXPOSE 5353
+EXPOSE 5053
 
 ENTRYPOINT ["/usr/sbin/dnsmasq", "-d"]
 
